@@ -1,3 +1,8 @@
 Hello
 this is git project practical no 4
+HEAD
 this changes from main branch.
+
+this changes from feature branch
+this changes through main branch
+ f496eac15f489255a37dd56838d321b3fbe6496d
