@@ -13,11 +13,56 @@ this changes through main branch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+7.mvn archetype:generate
+
+maven-archetype-webapp
+
+3
+
+groupId: org.mywebapp.com
+artifactId: MyWebApp
+version: 1.0-SNAPSHOT
+package: com.college
+ Y: Y
+
+cd MyWebApp
+
+mvn compile
+
+mvn package
+
+go to your project folder -> MyWebApp -> target -> copy  WAR file
+
+go to tomcat -> apache tomcat -> webapps -> paste here 
+
+go to tomcat -> apache tomcat -> bin -> open cmd
+
+enter startup.bat
+(to  stop server : shutdown.bat)
+
+server willl start 
+
+go to browser -> search localhost:8080/MyWebApp/
+Hello World
+
+
+
 8 .java -cp target/MavenDemo-1.0-SNAPSHOT.jar com.college.App
 
 
 
-in main 
+10.in main 
 java 
 
 Create a maven project first like practical 9
