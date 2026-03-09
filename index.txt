@@ -13,7 +13,7 @@ this changes through main branch
 
 
 
-
+8 .java -cp target/MavenDemo-1.0-SNAPSHOT.jar com.college.App
 
 
 
